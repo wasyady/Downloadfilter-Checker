@@ -21,7 +21,7 @@ public QueryConVar(QueryCookie:cookie, client, ConVarQueryResult:result, const S
     // nosounds = download all but sounds
     // mapsonly = only download maps, nothing else
     // none = don't download anything
-    if (strcmp(cvarValue, "all", false) == 0 || strcmp(cvarValue, "nosounds", false) == 0)
+    if (strcmp(cvarValue, "all", false) == 0)
     {
         return;
     }
